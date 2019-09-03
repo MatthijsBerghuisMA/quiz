@@ -10,5 +10,5 @@
 </head>
 <body>
     <nav>
-        <span>QUI</span><span class="z">Z</span>
+        <a href="index.php"><span>QUI</span><span class="z">Z</span></a>
     </nav>
