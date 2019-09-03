@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "AstronBoyVideo-Regular";
+    src: url("astron_boy_video.eot?") format("eot"), 
+    url("astron_boy_video.woff") format("woff"), 
+    url("astron_boy_video.ttf") format("truetype"), 
+    url("astron_boy_video.svg#AstronBoyVideo-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'AstronBoyVideo-Regular';
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/retro.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+span {
+    color: white;
+    font-size: 5em;
+    color: #FF00FE;
+}
+
+.z {
+    transform: rotateY(180deg);
+    color: #2BD1FC;
+    display: inline-block;
+    width: fit-content;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.start a {
+    color: #2BD1FC;
+    font-size: 0.7em;
+}
