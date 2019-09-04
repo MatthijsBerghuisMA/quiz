@@ -1,23 +1,18 @@
 .slide {
-  position: absolute;
-  left: 0px;
-  top: 0px;
   width: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.5s;
-  margin-top: 150px;
+  display: none;
 }
 
 .active-slide {
-  opacity: 1;
-  z-index: 2;
+  display: block;
 }
 
 button {
   color: #2BD1FC;
   font-size: 1.6em;
   margin: 0px 20px;
+  background-color: transparent;
+  border: none;
 }
 
 .question,
@@ -33,7 +28,7 @@ button {
 
 .answers {
   font-size: 1.5em;
-  margin-top: 150px; 
+  margin-top: 150px;
 }
 
 .answers {
@@ -41,7 +36,22 @@ button {
   flex-direction: column;
 }
 
-.musicbuttons{
+.musicbuttons, #skip {
   display: flex;
   justify-content: center;
+}
+
+#skip {
+  margin-top: 50px;
+}
+
+#submit {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#results {
+  text-align: center;
+  color: white;
 }
