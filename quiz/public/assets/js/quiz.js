@@ -174,14 +174,14 @@
     if (currentSlide === 0) {
       previousButton.style.display = "none";
     } else {
-      previousButton.style.display = "inline-block";
+      previousButton.style.display = "block";
     }
 
     if (currentSlide === slides.length - 1) {
       nextButton.style.display = "none";
-      submitButton.style.display = "inline-block";
+      submitButton.style.display = "block";
     } else {
-      nextButton.style.display = "inline-block";
+      nextButton.style.display = "block";
       submitButton.style.display = "none";
     }
   }
